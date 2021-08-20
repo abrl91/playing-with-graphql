@@ -18,7 +18,6 @@ const client = new ApolloClient({
     link
 });
 
-
 function App() {
   return (
       <ApolloProvider client={client}>
